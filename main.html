@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Login to site</title>
+</head>
+<body>
+    <!-- Login Box -->
+    <div class = "main_login">
+        
+        <h2 id="main_login_header">Welcome!</h2>
+
+        <!-- Login Form -->
+        <form id="main_login_form">
+
+            <!-- Email Input and Label -->
+            <label id="main_login_email_label">
+                Email<br>
+            </label>
+            <input type="email" name="main_login_email" id="main_login_email" placeholder="Email">
+            <br><br>
+
+            <!-- Password Input and Label -->
+            <label id="main_login_password_label">
+                Password<br>
+            </label>
+            <input type="password" name="main_login_password" id="main_login_passworc" placeholder="Password">
+            <br><br>
+
+            <!-- Log in button -->
+            <div id = "main_login_submitbutton_container">
+                <input type="button" name="main_login_submitbutton" id="main_login_submitbutton" value="Log In">       
+                   
+            </div>
+            
+            <div id = "main_login_rememberme">
+                <!-- Remember me check box -->
+                <input type="checkbox" id="main_login_rem_checkbox">    
+                <span id = "main_login_remembermetext">Remember me</span>    
+                <br><br> 
+            </div>
+
+            <!-- Forgot Password -->
+            <a href="#" id="main_login_forgot">Forgot Password?</a>
+            
+        </form>
+    </div>
+</body>
+</html>

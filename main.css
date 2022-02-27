@@ -1,0 +1,140 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(#184768, #0f334d, #092233);
+    color: #EBF2FA;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+
+.main_login {
+    width: 15em;
+    overflow: hidden;
+    margin: auto;
+    padding: 40px;
+    background-image: radial-gradient(farthest-corner at 0px 0px, #99D98C, #48803d ) ;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    box-shadow: 2px 5px 20px 2px rgb(20, 20, 20);
+}
+
+#main_login_header {
+    margin-top: -10px;
+    text-align: center;
+    
+}
+
+
+#main_login_form {
+    display: block;
+    margin: auto;
+}
+
+.main_login input {
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    margin: 2px;
+    outline: none !important;
+}
+
+.main_login input[type="email"], .main_login input[type="password"] {
+    width: 95%;
+}
+
+.main_login input[type="email"]:focus, .main_login input[type="password"]:focus {
+    box-shadow: 0em 0.4em 0.5em -0.1em rgba(48, 48, 48, 0.5);
+    transition: all .25s;
+}
+
+.main_login input[type="email"]:hover, .main_login input[type="password"]:hover {
+    box-shadow: 0em 0.4em 0.5em -0.1em rgba(48, 48, 48, 0.5);
+    transition: all .25s;
+}
+
+
+.main_login label {
+    padding: 3px;
+    font-size: 80%;
+}
+
+#main_login_loginbutton_container {
+   text-align: center;
+   display: inline;
+   align-items: center;
+   margin: -5px;
+}
+
+.main_login input[type="button"] {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: bold;
+    color:rgb(83, 79, 79);
+    box-shadow: 0.2em 0.2em 0.5em -0.4em rgba(59, 59, 59, 0.5);
+    transition: all 0.25s;
+ }
+
+ .main_login input[type="button"]:hover {
+    box-shadow: 0em 0.4em 0.5em -0.1em rgba(48, 48, 48, 0.5);
+    transform: translateY(-0.15em);
+    
+ }
+
+ 
+ .main_login input[type="button"]:active {
+    
+    background-color: #96a19a;
+    transform: translateY(0.1em);
+    transition: all .5s;
+    transform: scale(0.95);
+    
+    
+ }
+
+#main_login_rememberme {
+    display: table;
+    height:40px;
+}
+
+.main_login input[type="checkbox"] {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    transform: translate(0, 50%);
+}
+
+
+ #main_login_remembermetext  {
+    margin: 0px;
+    padding: 3px;
+    height: 100%;
+    display:table-cell;
+    vertical-align:middle;
+    font-size: 90%;
+ }
+
+ #main_login_forgot {
+     color: #2b3f33;
+     font-size: 85%;
+ }
+
+ #main_login_forgot:hover {
+    color: #131b16;
+    font-size: 85%;
+    transition: all .4s;
+}
+
+
