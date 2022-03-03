@@ -10,6 +10,7 @@ const client = new Client({
     port: 5432,
 });
 client.connect();
+alert("This one worked!")
 
 function newUser() {
     alert("This worked");
